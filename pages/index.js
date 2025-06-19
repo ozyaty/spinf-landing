@@ -3,8 +3,8 @@ export default function Home() {
     <div className="bg-black text-white font-sans">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-0 pb-20 text-center">
-        <img src="/spinf-logo.png" alt="SPINF Logo" className="w-70 mb-6" />
-        <img src="/phone-case-design.png" alt="SPINF Mockup" className="w-104 mb-6" />
+        <img src="/spinf-logo.png" alt="SPINF Logo" className="w-40 mb-4" />
+        <img src="/phone-case-design.png" alt="SPINF Mockup" className="w-72 md:w-96 mb-6" />
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Turn Fidget Into Rewards</h1>
         <p className="text-lg md:text-xl max-w-xl mb-6">
           Spin. Earn. Repeat. The world’s first smart spinner phone case. Patent pending.
@@ -53,10 +53,31 @@ export default function Home() {
       {/* Waitlist Form */}
       <section id="waitlist" className="py-20 px-6 text-center">
         <h2 className="text-3xl font-bold mb-6">Get Early Access</h2>
-        <form className="max-w-md mx-auto space-y-4">
-          <input type="text" placeholder="Your Name" className="w-full px-4 py-3 rounded-lg text-black" required />
-          <input type="email" placeholder="Your Email" className="w-full px-4 py-3 rounded-lg text-black" required />
-          <button type="submit" className="bg-white text-black px-6 py-3 font-semibold rounded-full hover:bg-gray-200 transition">Join the Waitlist</button>
+        <form
+          action="https://formspree.io/f/xeokljlj"
+          method="POST"
+          className="max-w-md mx-auto space-y-4"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            className="w-full px-4 py-3 rounded-lg text-black"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            className="w-full px-4 py-3 rounded-lg text-black"
+            required
+          />
+          <button
+            type="submit"
+            className="bg-white text-black px-6 py-3 font-semibold rounded-full hover:bg-gray-200 transition"
+          >
+            Join the Waitlist
+          </button>
         </form>
       </section>
 
