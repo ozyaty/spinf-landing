@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="bg-black text-white font-sans">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-3 pb-20 text-center">
+      <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-0 pb-20 text-center">
         <img src="/spinf-logo.png" alt="SPINF Logo" className="w-70 mb-6" />
         <img src="/phone-case-design.png" alt="SPINF Mockup" className="w-104 mb-6" />
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Turn Fidget Into Rewards</h1>
