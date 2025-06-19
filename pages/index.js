@@ -3,7 +3,7 @@ export default function Home() {
     <div className="bg-black text-white font-sans">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-0 pb-20 text-center">
-        <img src="/spinf-logo.png" alt="SPINF Logo" className="w-40 mb-4" />
+        <img src="/spinf-logo.png" alt="SPINF Logo" className="w-60 mb-4" />
         <img src="/phone-case-design.png" alt="SPINF Mockup" className="w-72 md:w-96 mb-6" />
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Turn Fidget Into Rewards</h1>
         <p className="text-lg md:text-xl max-w-xl mb-6">
@@ -62,14 +62,14 @@ export default function Home() {
             type="text"
             name="name"
             placeholder="Your Name"
-            className="w-full px-4 py-3 rounded-lg text-black"
+            className="w-full px-4 py-3 rounded-lg bg-white text-black placeholder-gray-500"
             required
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
-            className="w-full px-4 py-3 rounded-lg text-black"
+            className="w-full px-4 py-3 rounded-lg bg-white text-black placeholder-gray-500"
             required
           />
           <button
